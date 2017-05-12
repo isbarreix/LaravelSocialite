@@ -1,0 +1,265 @@
+@font-face{
+    font-family: 'Mohave';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Mohave"), url('../fonts/Mohave.otf') format("truetype");
+}
+
+@media screen and (max-device-width : 1920px){
+	#h_title {
+		font-size:60px;
+	 }
+	 
+	 #accordion h3{
+		font-size: 28px;
+	 }
+	 
+	 #panel_edicion{
+		font-size: 28px;
+	 }
+	 
+	 .btn, .btn-primary{
+	font-size: 28px;
+	}
+}
+
+@media screen and (max-device-width : 360px){
+	#h_title {
+		font-size:25px;
+	 }
+	 
+	 #accordion h3{
+		font-size: 14px;
+	 }
+	 
+	 #panel_edicion{
+		font-size: 14px;
+	 }
+	 
+	 .btn, .btn-primary{
+		font-size: 14px;
+	}
+
+}
+
+#logo{
+	width:	100%;
+	height: 100%;
+}
+
+#panel_edicion{
+	margin-top:30px;
+	padding-top:30px;
+}
+
+.navbar-brand{
+	width:40%;
+	height:60%;
+	/*margin-top:6px;*/
+	margin: 10px 5px 0 0;
+
+}
+
+
+.navbar-brand,
+.navbar-nav li a {
+	font-family: "Mohave";
+    line-height: 85px;
+	font-size: 25px;
+	word-spacing: 8px;
+}
+
+.navbar-right{
+	font-family: "Mohave";
+    line-height: 125px;
+	font-size: 25px;
+	word-spacing: 8px;
+}
+
+#h_title {
+	line-height:50px;
+	font-family:"Mohave";
+	text-align: center;
+	margin-top:	7px;
+	margin-bottom:30px;
+}
+
+
+.caret-right {
+	  display: inline-block;
+	  width: 0;
+	  height: 0;
+	  margin-left: 2px;
+	  vertical-align: middle;
+	  border-left: 5px solid;
+	  border-bottom: 5px solid transparent;
+	  border-top: 5px solid transparent;
+}
+
+#accordion h3{
+	font-family:"Mohave";
+	padding:15px 15px 15px 15px;
+
+/*	-webkit-box-shadow:    0 8px 0 #000000, 0 15px 20px rgba(0, 0, 0, .35);
+    -moz-box-shadow: 0 8px 0 #000000, 0 15px 20px rgba(0, 0, 0, .35);
+    box-shadow: 0 8px 0 #000000, 0 15px 20px rgba(0, 0, 0, .35);*/
+}
+
+#tab { 
+	   display:inline-block; 
+       margin-left: 35px; 
+	   margin-right: 10px;
+}
+
+#accordion h3:hover{
+	 background-color: #C21E3A;
+
+}
+
+
+#collapseModelo{
+	/*margin: 0 0 0 4%;*/
+}
+
+#collapseTamanos{
+/*	margin:0 20% 0 10%;*/
+}
+
+#panel_edicion{
+	margin:auto;
+	font-family:"Mohave";
+}
+
+#col_display_nombre{
+	background-color:#FDF3E7;
+}
+
+#display_nombre{
+	margin-top:10px;
+}
+
+.btn-info{
+	background-color:#F7CA93;
+	border-color:#F7CA93;
+	/*width:50px;*/
+	margin-top:1px;
+}
+
+.btn-info:hover{
+	background-color: #A6610D;
+}
+
+.btn-info:active{
+	background-color: blue;
+}
+
+#display_nombreElegido{
+	color:red;
+	display:inline;
+}
+
+
+
+.btn:active{
+	position:relative;
+	top:1px;
+}
+
+.center-btn{
+	margin:0 0.5% 0 3.9%;
+	/*width: 200px;*/
+}
+
+#btnClr{
+	padding:20px 20px;
+	margin-top: 5px;
+}
+
+#btn_load{
+	background-color: #139675;
+}
+
+#btn_load:hover{
+	background-color: #006231;
+}
+
+#btn_download{
+	background-color: #f44336;
+}
+
+#btn_download:hover{
+	background-color: #E52A1F;
+}
+
+
+#table_acc{
+	margin: auto;
+}
+
+
+#display_anteojos{
+/*	width:	768px;
+    height: 384px;*/
+	margin-bottom: 20px;
+	border-color:black;
+}
+
+/*
+Para celulares
+
+*/
+.col-sm-12{
+	font-size:8px;
+}
+
+#btnRandom, #tema{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.btn-dropdown{
+	position: relative;
+    display: inline-block;
+	
+}
+
+.btn-dropdown-content{
+	display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 320px;
+    padding: 12px 16px;
+    z-index: 1;
+	color:black;
+    
+}
+
+#texto_detalle{
+	font-size:16px;
+	display:block;
+    white-space: pre-wrap;
+    word-break: normal;
+}
+
+.btn-dropdown:hover .btn-dropdown-content {
+    display: block;
+}
+
+#display_nombre{
+	color:black;
+}
+
+#f_span{
+	font-family:"Mohave";
+	color:white;
+	font-size:26px;
+	text-align:center;
+	padding-top:40px;
+	padding-bottom:30px;
+}
+

@@ -2,6 +2,10 @@
 Laravel 1.3.5 y socialite para logeo para facebook
 https://www.youtube.com/watch?v=EYdeTbQyhL8
 
+Crear serve:
+'php artisan serve --host=localhost'
+Para que quede 'http://localhost:8000>'
+
 https://github.com/laravel/socialite
 
 https://blog.damirmiladinov.com/laravel/laravel-5.2-socialite-facebook-login.html#.WRXNWuV96Uk
